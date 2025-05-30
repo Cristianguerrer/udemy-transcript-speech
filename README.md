@@ -42,6 +42,7 @@ Extensión de Chrome que convierte automáticamente los subtítulos activos de l
 ├── manifest.json       # Configuración de la extensión
 ├── icon.png            # Ícono de la extensión
 
+
 🧾 Permisos requeridos
 
 - "activeTab" – acceder a la pestaña activa
