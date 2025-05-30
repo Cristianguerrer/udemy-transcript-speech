@@ -44,12 +44,15 @@ Extensión de Chrome que convierte automáticamente los subtítulos activos de l
 
 📁 Estructura del proyecto
 
-📦 udemy-transcript-speech
- ┣ 📜 background.js      # Lógica central para lectura TTS
- ┣ 📜 popup.html         # Interfaz de usuario
- ┣ 📜 popup.js           # Lógica de control del popup
- ┣ 📜 manifest.json      # Configuración de la extensión
- ┗ 🖼️ icon.png           # Ícono de la extensión
+```
+udemy-transcript-speech/
+├── background.js     # Lógica central para lectura TTS
+├── popup.html        # Interfaz de usuario
+├── popup.js          # Lógica de control del popup
+├── manifest.json     # Configuración de la extensión
+└── icon.png          # Ícono de la extensión
+```
+
 
 🧾 Permisos requeridos
 
