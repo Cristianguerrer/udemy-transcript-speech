@@ -22,9 +22,18 @@ Extensión de Chrome que convierte automáticamente los subtítulos activos de l
 
 🧪 Uso
 
+- Asegúrate de que el video tenga activada la transcripción (subtítulos visibles) para que el sistema pueda leer el texto.
 - Haz clic en el botón "Iniciar TTS" para comenzar la lectura automática.
 - Usa "Detener TTS" para pausar la lectura.
 - La extensión verifica subtítulos nuevos cada segundo para mantener la lectura sincronizada.
+
+⚙️ Personalización
+
+- Puedes modificar la velocidad de lectura cambiando el valor de `rate` en el archivo `background.js`.
+- Línea correspondiente:
+
+  chrome.tts.speak(subtitleText, {
+      rate: 2.0,  <-- Ajusta este valor según prefieras (por ejemplo, 1.0 para velocidad normal)
 
 🛠️ Tecnologías utilizadas
 
@@ -35,13 +44,12 @@ Extensión de Chrome que convierte automáticamente los subtítulos activos de l
 
 📁 Estructura del proyecto
 
-.
-├── background.js       # Lógica central para lectura TTS
-├── popup.html          # Interfaz de usuario
-├── popup.js            # Lógica de control del popup
-├── manifest.json       # Configuración de la extensión
-├── icon.png            # Ícono de la extensión
-
+📦 udemy-transcript-speech
+ ┣ 📜 background.js      # Lógica central para lectura TTS
+ ┣ 📜 popup.html         # Interfaz de usuario
+ ┣ 📜 popup.js           # Lógica de control del popup
+ ┣ 📜 manifest.json      # Configuración de la extensión
+ ┗ 🖼️ icon.png           # Ícono de la extensión
 
 🧾 Permisos requeridos
 
