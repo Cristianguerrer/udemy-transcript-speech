@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+
+  "name": "Udemy TTS",
+  "version": "1.0",
+  "description": "Convierte subtítulos de Udemy a voz",
+  "icons": {
+	  "128": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+	"tts"
+  ],
+
+  "host_permissions": [
+    "https://www.udemy.com/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
