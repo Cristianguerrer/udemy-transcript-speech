@@ -29,7 +29,7 @@ Extensión de Chrome que convierte automáticamente los subtítulos activos de l
 
 Video demostrativo: 
 ![alt text](image.png)
-https://youtu.be/uvyEnpnUi3k
+https://www.youtube.com/watch?v=uvyEnpnUi3k&ab_channel=KubernetesColombia
 
 ⚙️ Personalización
 
