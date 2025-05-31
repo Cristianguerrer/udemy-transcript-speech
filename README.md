@@ -30,6 +30,7 @@ Extensión de Chrome que convierte automáticamente los subtítulos activos de l
 Video demostrativo: 
 ![alt text](image.png)
 https://youtu.be/uvyEnpnUi3k
+
 ⚙️ Personalización
 
 - Puedes modificar la velocidad de lectura cambiando el valor de `rate` en el archivo `background.js`.
