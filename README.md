@@ -27,6 +27,9 @@ Extensión de Chrome que convierte automáticamente los subtítulos activos de l
 - Usa "Detener TTS" para pausar la lectura.
 - La extensión verifica subtítulos nuevos cada segundo para mantener la lectura sincronizada.
 
+Video demostrativo: 
+![alt text](image.png)
+https://youtu.be/uvyEnpnUi3k
 ⚙️ Personalización
 
 - Puedes modificar la velocidad de lectura cambiando el valor de `rate` en el archivo `background.js`.
