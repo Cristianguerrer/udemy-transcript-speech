@@ -72,4 +72,4 @@ udemy-transcript-speech/
 
 📄 Licencia
 
-MIT License © Cristian Estupiñán (https://github.com/Cristianguerrer)
+MIT License © Cristian Estupiñán (https://github.com/Cristianguerrer) [MIT](LICENSE).
